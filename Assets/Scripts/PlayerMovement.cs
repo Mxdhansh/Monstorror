@@ -5,10 +5,13 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
 
     private Animator animator;
+    private Rigidbody rb;
+    private Vector3 movement;
 
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -25,9 +28,7 @@ public class PlayerMovement : MonoBehaviour
         forward.Normalize();
         right.Normalize();
 
-        Vector3 movement = (forward * vertical + right * horizontal);
-
-        transform.Translate(movement * speed * Time.deltaTime, Space.World);
+        movement = (forward * vertical + right * horizontal).normalized;
 
         if (movement != Vector3.zero)
         {
@@ -39,6 +40,19 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("Speed", movement.magnitude);
         }
     }
+
+    void FixedUpdate()
+    {
+        Vector3 velocity = rb.linearVelocity;
+
+        Vector3 horizontalVelocity = movement * speed;
+
+        rb.linearVelocity = new Vector3(
+            horizontalVelocity.x,
+            velocity.y,
+            horizontalVelocity.z
+        );
+    }
 }
 
-// Bi-weekly game progress 4 //
+// Bi-weekly game progress 5 //

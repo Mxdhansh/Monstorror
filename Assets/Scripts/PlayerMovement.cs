@@ -1,23 +1,29 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 7f;
+    public float walkSpeed = 7f;
+    public float sprintSpeed = 11f;
+    public float rotationSpeed = 10f;
 
-    private Animator animator;
     private Rigidbody rb;
+    private Animator animator;
+
     private Vector3 movement;
+    private float currentSpeed;
 
     void Start()
     {
-        animator = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody>();
+        animator = GetComponentInChildren<Animator>();
+        rb.interpolation = RigidbodyInterpolation.Interpolate;
     }
 
     void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
 
         Vector3 forward = Camera.main.transform.forward;
         Vector3 right = Camera.main.transform.right;
@@ -28,11 +34,13 @@ public class PlayerMovement : MonoBehaviour
         forward.Normalize();
         right.Normalize();
 
-        movement = (forward * vertical + right * horizontal).normalized;
+        movement = (forward * v + right * h).normalized;
+
+        currentSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
 
         if (movement != Vector3.zero)
         {
-            transform.forward = movement;
+            transform.forward = Vector3.Lerp(transform.forward, movement, rotationSpeed * Time.deltaTime);
         }
 
         if (animator != null)
@@ -43,16 +51,6 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector3 velocity = rb.linearVelocity;
-
-        Vector3 horizontalVelocity = movement * speed;
-
-        rb.linearVelocity = new Vector3(
-            horizontalVelocity.x,
-            velocity.y,
-            horizontalVelocity.z
-        );
+        rb.MovePosition(rb.position + movement * currentSpeed * Time.fixedDeltaTime);
     }
 }
-
-// Bi-weekly game progress 6 //

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\medha\\Desktop\\SUMMERSEM-2026\\Game Engine 1\\Monstorror\\Monstorror\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\medha\\Desktop\\SUMMERSEM-2026\\Game Engine 1\\Monstorror\\Monstorror\\Assets\\Scripts\\NPCHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NPCHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\medha\\Desktop\\SUMMERSEM-2026\\Game Engine 1\\Monstorror\\Monstorror\\Assets\\DenysAlmaral\\CityPeople\\Scripts\\NPCWander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\DenysAlmaral\\CityPeople\\Scripts\\NPCWander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\medha\\Desktop\\SUMMERSEM-2026\\Game Engine 1\\Monstorror\\Monstorror\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,15 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NPCHealth.cs",
+              "DocumentMoniker": "C:\\Users\\medha\\Desktop\\SUMMERSEM-2026\\Game Engine 1\\Monstorror\\Monstorror\\Assets\\Scripts\\NPCHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCHealth.cs",
+              "ToolTip": "C:\\Users\\medha\\Desktop\\SUMMERSEM-2026\\Game Engine 1\\Monstorror\\Monstorror\\Assets\\Scripts\\NPCHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T21:26:35.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NPCWander.cs",
+              "DocumentMoniker": "C:\\Users\\medha\\Desktop\\SUMMERSEM-2026\\Game Engine 1\\Monstorror\\Monstorror\\Assets\\DenysAlmaral\\CityPeople\\Scripts\\NPCWander.cs",
+              "RelativeDocumentMoniker": "Assets\\DenysAlmaral\\CityPeople\\Scripts\\NPCWander.cs",
+              "ToolTip": "C:\\Users\\medha\\Desktop\\SUMMERSEM-2026\\Game Engine 1\\Monstorror\\Monstorror\\Assets\\DenysAlmaral\\CityPeople\\Scripts\\NPCWander.cs",
+              "RelativeToolTip": "Assets\\DenysAlmaral\\CityPeople\\Scripts\\NPCWander.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T20:23:17.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\medha\\Desktop\\SUMMERSEM-2026\\Game Engine 1\\Monstorror\\Monstorror\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\medha\\Desktop\\SUMMERSEM-2026\\Game Engine 1\\Monstorror\\Monstorror\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T09:56:10.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T09:56:10.944Z"
             }
           ]
         }

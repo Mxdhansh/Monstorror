@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 7f;
 
     private Animator animator;
     private Rigidbody rb;
@@ -55,4 +55,4 @@ public class PlayerMovement : MonoBehaviour
     }
 }
 
-// Bi-weekly game progress 5 //
+// Bi-weekly game progress 6 //

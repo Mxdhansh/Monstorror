@@ -13,6 +13,13 @@ public class NPCHealth : MonoBehaviour
         {
             isDead = true;
 
+            // Play eating sound
+            AudioSource audio = GameManager.Instance.GetComponent<AudioSource>();
+            if (audio != null)
+            {
+                audio.Play();
+            }
+
             GameManager.Instance.AddScore();
 
             StartCoroutine(ShrinkAndDestroy());

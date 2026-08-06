@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -11,8 +12,11 @@ public class GameManager : MonoBehaviour
     public TMP_Text winText;
     public TMP_Text timerText;
 
-    private float timeRemaining = 300f; // 5 minutes
+    public GameObject mainMenu;
+
+    private float timeRemaining = 300f;
     private bool gameEnded = false;
+    private bool gameStarted = false;
 
     private void Awake()
     {
@@ -33,12 +37,46 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Humans Eaten: 0 / 26";
         winText.text = "";
         timerText.text = "Time: 5:00";
+
+        scoreText.gameObject.SetActive(false);
+        timerText.gameObject.SetActive(false);
+
+        mainMenu.SetActive(true);
+
+        Time.timeScale = 0f;
     }
 
     private void Update()
     {
-        if (gameEnded)
+        // Start game
+        if (!gameStarted)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                gameStarted = true;
+
+                mainMenu.SetActive(false);
+
+                scoreText.gameObject.SetActive(true);
+                timerText.gameObject.SetActive(true);
+
+                Time.timeScale = 1f;
+            }
+
             return;
+        }
+
+        // Restart game
+        if (gameEnded)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                Time.timeScale = 1f;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+
+            return;
+        }
 
         timeRemaining -= Time.deltaTime;
 
@@ -53,7 +91,7 @@ public class GameManager : MonoBehaviour
         if (timeRemaining <= 0)
         {
             gameEnded = true;
-            winText.text = "TIME UP!\n\nThe Humans Escaped!";
+            winText.text = "TIME UP!\n\nThe Humans Escaped!\n\nPress R to Restart";
             Time.timeScale = 0f;
         }
     }
@@ -70,7 +108,7 @@ public class GameManager : MonoBehaviour
         if (score >= 26)
         {
             gameEnded = true;
-            winText.text = "YOU WIN!\n\nAll Humans Have Been Eaten!";
+            winText.text = "YOU WIN!\n\nAll Humans Have Been Eaten!\n\nPress R to Restart";
             Time.timeScale = 0f;
         }
     }

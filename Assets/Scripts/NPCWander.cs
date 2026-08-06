@@ -7,7 +7,7 @@ public class NPCWander : MonoBehaviour
     public float detectionRange = 8f;
     public float wanderRadius = 15f;
     public float walkSpeed = 2f;
-    public float runSpeed = 5f;
+    public float runSpeed = 5.5f;
     public float waitTime = 2f;
 
     private NavMeshAgent agent;

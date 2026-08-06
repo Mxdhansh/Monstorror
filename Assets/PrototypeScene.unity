@@ -233,10 +233,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &36563925
 MonoBehaviour:
@@ -512,10 +512,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &102108083
 MonoBehaviour:
@@ -665,10 +665,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &155196954
 MonoBehaviour:
@@ -818,10 +818,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &190367390
 MonoBehaviour:
@@ -1057,10 +1057,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &217023625
 MonoBehaviour:
@@ -1210,10 +1210,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &348070770
 MonoBehaviour:
@@ -1363,10 +1363,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &358373092
 MonoBehaviour:
@@ -1663,10 +1663,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &410566589
 MonoBehaviour:
@@ -1816,10 +1816,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &423206387
 MonoBehaviour:
@@ -1946,10 +1946,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &489336645
 MonoBehaviour:
@@ -2419,10 +2419,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &932868031
 MonoBehaviour:
@@ -2572,10 +2572,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1012520792
 MonoBehaviour:
@@ -2644,7 +2644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0778cb4168a57f8458d53c3537dd6f9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 10
+  speed: 7
 --- !u!136 &1063961083
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3146,10 +3146,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1126254662
 MonoBehaviour:
@@ -3299,10 +3299,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1155623946
 MonoBehaviour:
@@ -3691,10 +3691,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1197013924
 MonoBehaviour:
@@ -3930,10 +3930,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1243106978
 MonoBehaviour:
@@ -4083,10 +4083,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1337729147
 MonoBehaviour:
@@ -4339,10 +4339,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1508687030
 MonoBehaviour:
@@ -4538,10 +4538,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1571222949
 MonoBehaviour:
@@ -4782,10 +4782,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1724307271
 MonoBehaviour:
@@ -5047,10 +5047,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1765278361
 MonoBehaviour:
@@ -5439,10 +5439,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1883009529
 MonoBehaviour:
@@ -5592,10 +5592,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1929328382
 MonoBehaviour:
@@ -5745,10 +5745,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1966163494
 MonoBehaviour:
@@ -5898,10 +5898,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &1982685767
 MonoBehaviour:
@@ -6051,10 +6051,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCWander
   monster: {fileID: 1063961086}
-  detectionRange: 5
+  detectionRange: 8
   wanderRadius: 15
-  walkSpeed: 2
-  runSpeed: 5
+  walkSpeed: 2.5
+  runSpeed: 5.5
   waitTime: 2
 --- !u!114 &2035226036
 MonoBehaviour:
